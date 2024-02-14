@@ -14,6 +14,7 @@ set(PROTO_FILES
     nav_sat_fix.proto
     nav_sat_status.proto
     odometry.proto
+    pixy_vector.proto
     point.proto
     pose.proto
     pose_with_covariance.proto

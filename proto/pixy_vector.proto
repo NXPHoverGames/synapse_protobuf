@@ -1,0 +1,17 @@
+syntax = "proto3";
+package synapse.msgs;
+
+import "header.proto";
+
+message PixyVector{
+  	Header header = 1;
+  	uint32 m0_x0 = 2;
+  	uint32 m0_y0 = 3;
+  	uint32 m0_x1 = 4;
+  	uint32 m0_y1 = 5;
+  	uint32 m1_x0 = 6;
+  	uint32 m1_y0 = 7;
+  	uint32 m1_x1 = 8;
+  	uint32 m1_y1 = 9;
+}
+
